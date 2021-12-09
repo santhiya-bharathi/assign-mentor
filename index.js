@@ -23,7 +23,7 @@ async function createConnection(){
 }
 const client = await createConnection();
 
-const details = "hello world!!!, for getting mentor and students details ( /mentorlist )"
+const details = "hello world!!!, for getting mentor and students details ( /mentorlist ), for getting only mentor details ( /onlymentorlist ), for getting only students details ( /onlystudentslist )"
 
 // const mentorList = [{
 //     "id":"100",
